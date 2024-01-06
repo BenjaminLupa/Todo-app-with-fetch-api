@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Dancing Script", cursive;
+}
+
+.container {
+  margin-block-start: 15px;
+  margin-inline: auto;
+  width: 600px;
+}
+header {
+  width: 100%;
+  background-color: rgb(73, 64, 69);
+  text-align: center;
+  border-radius: 15px 15px 0 0;
+  color: bisque;
+}
+h1 {
+  padding-block: 20px;
+}
+
+#delete-button {
+  position: relative;
+  top: -86px;
+  right: -248px;
+  padding: 6px;
+  border-radius: 15px;
+  background-color: crimson;
+  color: white;
+  border: 2px solid white;
+}
+
+#list {
+  list-style: none;
+  color: white;
+  background-color: black;
+  padding-top: 10px;
+  min-height: 70vh;
+  padding-left: 30px;
+  border-radius: 0 0 15px 15px;
+}
+
+.checkbox-style {
+  margin-right: 15px;
+  accent-color: black;
+}
+
+.list-element {
+  margin-top: 15px;
+  background-color: rgb(60, 59, 59);
+  padding-left: 10px;
+  padding-block: 6px;
+  margin-right: 20px;
+  border-radius: 6px;
+  font-size: 20px;
+}
+
+#add-btn {
+  padding: 3px;
+  width: 45px;
+  height: 30px;
+  background-color: black;
+  color: bisque;
+  border-radius: 4px;
+  border: none;
+}
+
+#todo-text {
+  font-size: 20px;
+  height: 30px;
+  width: 160px;
+  background-color: bisque;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding-left: 8px;
+}
+
+#todo {
+  accent-color: aqua;
+  margin-left: 10px;
+}
+
+#done {
+  accent-color: red;
+  margin-left: 10px;
+}
+
+.show-label {
+  margin-left: 6px;
+}

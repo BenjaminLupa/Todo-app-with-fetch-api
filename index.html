@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App with api</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Todo App with api</h1>
+            <form id="submit-formular">
+                <input id="todo-text" type="text">
+                <button id="add-btn">add</button>
+            </form>
+            <button id="delete-button">delete done`s</button>
+            <form id="show">
+                <input type="radio" name="status" id="all" checked><label class="show-label" for="all">all</label>
+                <input type="radio" name="status" id="todo"><label class="show-label" for="todo">todo</label>
+                <input type="radio" name="status" id="done"><label class="show-label" for="done">done</label>
+            </form>
+        </header>
+        <main>
+            <ul id="list">
+            </ul>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
