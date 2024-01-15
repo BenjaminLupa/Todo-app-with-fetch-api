@@ -62,7 +62,9 @@ function changeStat(newLi, checkbox) {
       method: "PUT",
       headers: { "Content-type": "application/json" },
       body: JSON.stringify(updatetTodo),
-    }).then((res) => res.json());
+    })
+      .then((res) => res.json())
+      .then(getTodos());
   });
 }
 
